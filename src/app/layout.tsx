@@ -45,11 +45,20 @@ export const metadata: Metadata = {
     title: "Taukei Enterprises | Building Businesses. Creating Impact.",
     description:
       "A diversified California-based holding company dedicated to building exceptional businesses and creating lasting value.",
+    images: [
+      {
+        url: "/opengraph-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Taukei Enterprises — Building Businesses. Creating Impact.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Taukei Enterprises",
     description: "Building Businesses. Creating Impact. Strengthening Communities.",
+    images: ["/opengraph-image.jpg"],
   },
   robots: {
     index: true,
