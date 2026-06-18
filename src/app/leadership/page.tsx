@@ -8,13 +8,13 @@ import { ChevronDown, ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Leadership",
   description:
-    "Meet the Board of Trustees of Taukei Enterprises: Pita Taukei (Chairman & Founder), Paula Taukei (Co Vice-Chair), and Makayla Taukei (Co Vice-Chair). View our organizational structure.",
+    "Meet the Board of Trustees of Taukei Enterprises: Pita Taukei (Founder & Chairman), Paula Taukei (CEO & Co-Chair), and Makayla Taukei (COO & Co-Chair). View our organizational structure.",
 };
 
 const boardOfficers = [
   {
     name: "Pita G. Taukei",
-    title: "Chairman & Founder",
+    title: "Founder & Chairman",
     initials: "PT",
     photo: "/pita-taukei.jpg",
     bio: [
@@ -26,7 +26,7 @@ const boardOfficers = [
     quote: "Leadership is service. The moment you stop serving, you stop leading.",
     credentials: [
       { label: "Education", value: "B.S. Business Management, BYU–Hawaii" },
-      { label: "Role at Taukei", value: "Chairman & Founder" },
+      { label: "Role at Taukei", value: "Founder & Chairman" },
       { label: "Also Serves As", value: "Executive Director, Providential Fijian Home Care" },
       { label: "Based In", value: "Santa Rosa, California" },
     ],
@@ -34,35 +34,35 @@ const boardOfficers = [
   },
   {
     name: "Paula Taukei",
-    title: "Co Vice-Chair",
+    title: "CEO & Co-Chair",
     initials: "PaT",
     photo: "/paula-taukei.jpg",
     bio: [
-      "Paula Taukei serves as Co Vice-Chair of the Taukei Enterprises Board of Trustees. As a founding member of the board, Paula plays a vital role in governance, strategic oversight, and ensuring the company upholds its core values across all operations.",
-      "Paula brings a strong family-centered perspective to the boardroom, helping guide decisions that affect employees, clients, and the communities Taukei Enterprises serves. Her leadership ensures the enterprise remains grounded in its mission of integrity, service, and long-term stewardship.",
+      "Paula Taukei serves as Chief Executive Officer and Co-Chair of Taukei Enterprises. As a founding member of the leadership team, Paula leads day-to-day operations across the enterprise, ensuring each portfolio company executes with excellence and stays aligned to the organization's strategic vision.",
+      "Paula brings a strong family-centered perspective to executive leadership, driving decisions that benefit employees, clients, and the communities Taukei Enterprises serves. His leadership ensures the enterprise remains grounded in its mission of integrity, service, and long-term stewardship.",
     ],
     quote: "We build businesses that reflect our values — because business is personal.",
     credentials: [
-      { label: "Board Role", value: "Co Vice-Chair" },
-      { label: "Focus", value: "Governance & Strategic Oversight" },
-      { label: "Tenure", value: "Founding Board Member" },
+      { label: "Board Role", value: "Co-Chair" },
+      { label: "Executive Role", value: "Chief Executive Officer" },
+      { label: "Tenure", value: "Founding Member" },
     ],
     featured: false,
   },
   {
     name: "Makayla Taukei",
-    title: "Co Vice-Chair",
+    title: "COO & Co-Chair",
     initials: "MT",
     photo: "/makayla-taukei.jpg",
     bio: [
-      "Makayla Taukei serves as Co Vice-Chair of the Taukei Enterprises Board of Trustees. In this role, Makayla contributes to governance oversight and helps ensure the organization's operations remain transparent and aligned with its core values.",
-      "As a member of the board, Makayla contributes a detail-oriented and principled perspective to enterprise decision-making, supporting the long-term vision of building a trustworthy and impactful multi-sector holding company.",
+      "Makayla Taukei serves as Chief Operating Officer and Co-Chair of Taukei Enterprises. In this role, Makayla oversees the operational performance of all portfolio companies, ensuring processes, people, and systems run at the highest standard.",
+      "Makayla brings a detail-oriented and principled approach to operations, supporting the long-term vision of building a trustworthy and impactful multi-sector holding company. Her focus on execution and accountability strengthens the foundation of every business under the Taukei umbrella.",
     ],
-    quote: "Precision in governance builds the foundation for lasting trust.",
+    quote: "Precision in operations builds the foundation for lasting trust.",
     credentials: [
-      { label: "Board Role", value: "Co Vice-Chair" },
-      { label: "Focus", value: "Corporate Governance & Records" },
-      { label: "Tenure", value: "Founding Board Member" },
+      { label: "Board Role", value: "Co-Chair" },
+      { label: "Executive Role", value: "Chief Operating Officer" },
+      { label: "Tenure", value: "Founding Member" },
     ],
     featured: false,
   },
@@ -107,7 +107,7 @@ export default function LeadershipPage() {
                     <Image src="/pita-taukei.jpg" alt="Pita G. Taukei" width={144} height={144} className="object-cover w-full h-full object-top" />
                   </div>
                   <p className="font-display text-white text-2xl font-bold text-center">Pita G. Taukei</p>
-                  <p className="text-gold text-sm tracking-widest uppercase mt-1">Chairman &amp; Founder</p>
+                  <p className="text-gold text-sm tracking-widest uppercase mt-1">Founder &amp; Chairman</p>
                   <p className="text-white/40 text-xs mt-1">Taukei Enterprises</p>
                   <div className="mt-5 space-y-2 w-full max-w-xs">
                     {boardOfficers[0].credentials.map(({ label, value }) => (
