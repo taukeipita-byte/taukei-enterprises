@@ -80,7 +80,7 @@ const companies = [
   },
   {
     name: "Bula Vending",
-    tagline: "Refreshing Convenience, Everywhere.",
+    tagline: "Elevated Convenience.",
     description:
       "A California-based vending company providing modern, reliable vending machine solutions for offices, apartment complexes, and commercial properties throughout the Bay Area.",
     services: ["Vending Machine Operations", "Snack & Beverage Supply", "Micro-Markets", "Route Management", "Machine Maintenance"],
@@ -90,7 +90,7 @@ const companies = [
     href: "https://www.bulavending.com",
     external: true,
     icon: Truck,
-    image: "/images/logistics.jpg",
+    image: "/images/vending.jpg",
     sector: "Vending Services",
     featured: false,
     facts: [

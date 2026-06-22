@@ -38,7 +38,7 @@ const companies = [
   },
   {
     name: "Bula Vending",
-    tagline: "Refreshing Convenience, Everywhere.",
+    tagline: "Elevated Convenience.",
     location: "Fremont, CA",
     sector: "Vending Services",
     status: "Active",
