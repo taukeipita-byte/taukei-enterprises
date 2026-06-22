@@ -37,10 +37,10 @@ const companies = [
     icon: Shield,
   },
   {
-    name: "Taukei Logistics & Freight",
-    tagline: "Moving Business Forward.",
+    name: "Bula Vending",
+    tagline: "Refreshing Convenience, Everywhere.",
     location: "Fremont, CA",
-    sector: "Logistics",
+    sector: "Vending Services",
     status: "Active",
     href: "/portfolio",
     external: false,

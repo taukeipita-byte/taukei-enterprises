@@ -72,7 +72,7 @@ const subsidiaries = [
   { name: "Providential Fijian Home Care", subtitle: "Home Care · Santa Rosa, CA", status: "Active" },
   { name: "Providential Care Homes", subtitle: "Assisted Living · UT & CA", status: "Active" },
   { name: "Elite Security Agency", subtitle: "Security · Hawaii", status: "Active" },
-  { name: "Taukei Logistics & Freight", subtitle: "Logistics · Fremont, CA", status: "Active" },
+  { name: "Bula Vending", subtitle: "Vending · Fremont, CA", status: "Active" },
   { name: "Taukei Realty Holdings", subtitle: "Real Estate · San Francisco, CA", status: "Active" },
 ];
 

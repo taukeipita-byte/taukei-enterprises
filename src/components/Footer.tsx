@@ -68,7 +68,7 @@ export default function Footer() {
                   { name: "Providential Fijian Home Care", loc: "Santa Rosa, CA", href: "https://www.providentialfijianhomecare.com", external: true },
                   { name: "Providential Care Homes", loc: "Utah & California", href: "/portfolio", external: false },
                   { name: "Elite Security Agency", loc: "Hawaii", href: "/portfolio", external: false },
-                  { name: "Taukei Logistics & Freight", loc: "Fremont, CA", href: "/portfolio", external: false },
+                  { name: "Bula Vending", loc: "Fremont, CA", href: "https://www.bulavending.com", external: true },
                   { name: "Taukei Realty Holdings", loc: "San Francisco, CA", href: "/portfolio", external: false },
                 ].map((co) => (
                   <div key={co.name}>

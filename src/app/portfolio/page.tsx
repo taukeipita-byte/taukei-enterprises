@@ -8,7 +8,7 @@ import { ExternalLink, MapPin, CheckCircle, ArrowRight, Heart, Home, Shield, Tru
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "Explore Taukei Enterprises' portfolio of five companies spanning home care, assisted living, security, logistics, and real estate across California, Hawaii, and Utah.",
+    "Explore Taukei Enterprises' portfolio of five companies spanning home care, assisted living, security, vending, and real estate across California, Hawaii, and Utah.",
 };
 
 const companies = [
@@ -79,25 +79,25 @@ const companies = [
     ],
   },
   {
-    name: "Taukei Logistics & Freight",
-    tagline: "Moving Business Forward.",
+    name: "Bula Vending",
+    tagline: "Refreshing Convenience, Everywhere.",
     description:
-      "A California-based logistics and freight company providing reliable transportation and delivery solutions for businesses throughout the Bay Area and beyond.",
-    services: ["Freight Transportation", "Last-Mile Delivery", "Commercial Logistics", "Fleet Management", "Bay Area Routing"],
+      "A California-based vending company providing modern, reliable vending machine solutions for offices, apartment complexes, and commercial properties throughout the Bay Area.",
+    services: ["Vending Machine Operations", "Snack & Beverage Supply", "Micro-Markets", "Route Management", "Machine Maintenance"],
     location: "Fremont, CA",
     coverage: "Bay Area & California",
     status: "Active",
-    href: "/contact",
-    external: false,
+    href: "https://www.bulavending.com",
+    external: true,
     icon: Truck,
     image: "/images/logistics.jpg",
-    sector: "Logistics & Freight",
+    sector: "Vending Services",
     featured: false,
     facts: [
       { label: "HQ", value: "Fremont, California" },
       { label: "Coverage", value: "Bay Area & CA Statewide" },
-      { label: "Type", value: "Freight & Last-Mile" },
-      { label: "Fleet", value: "Commercial Vehicles" },
+      { label: "Type", value: "Vending & Micro-Markets" },
+      { label: "Clients", value: "Offices & Commercial Properties" },
     ],
   },
   {
@@ -130,7 +130,7 @@ export default function PortfolioPage() {
       <PageHero
         eyebrow="Our Portfolio"
         title="Five Companies. One Vision."
-        subtitle="Taukei Enterprises operates across home care, assisted living, security, logistics, and real estate — united by our commitment to excellence and community."
+        subtitle="Taukei Enterprises operates across home care, assisted living, security, vending, and real estate — united by our commitment to excellence and community."
       />
 
       {/* Stats bar */}
